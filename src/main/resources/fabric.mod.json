@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "directionhud",
+  "version": "${version}",
+  "name": "DirectionHUD",
+  "description": "A lightweight client-side static compass, coordinates and biome HUD.",
+  "authors": [
+    "MineAura"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mineaura.directionhud.DirectionHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "icon": "assets/directionhud/icon.png"
+}
